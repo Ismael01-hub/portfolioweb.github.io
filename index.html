@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ismael</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/prueba2.jpg" alt="">
+            </div>
+            <h1>Ismael Orcero Púa</h1>
+            <h2>Desarrollador de aplicaciones multiplataforma</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/ismael-orcero-p%C3%BAa-301991229"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Ismael Orcero.</span> Recientemente graduado en el grado de Desarrollo de Aplicaciones Multiplataforma, me gustaría integrarme en el sector de la informática, ya que es un sector que me apasiona y tengo las habilidades para desarrollar diferentes tareas, especialmente en el área de la programación.
+                Con un conocimiento de varios lenguajes de programación como por ejemplo Android, Java...etc o de diseño web como por ejemplo HTML o CSS
+                He conseguido desarrollar una gran capacidad de resolución y adquirir una perspectiva general sobre la informática. A lo largo de mi formación he podido descubrir que tengo una buena capacidad de trabajo en equipo, así como mi conocimiento de idiomas, mediante cursos intensivos.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Email</strong>
+                            iorceropuaa@gmail.com
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>INFORMÁTICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button type="button" onclick=javascript:window.open('https://www.mediafire.com/file/9todkz3wtv1u1of/cuuurr.pdf/file')>
+                Descargar CV <i class="fa-solid fa-download"></i><a></a>
+                <span class="overlay"></span>
+            </button>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Lenguajes en los que tengo más destreza</h3>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML, JavaScript & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Kotlin</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- IDE más usados -->
+                <div class="col">
+                    <h3>IDE más usados</h3>
+                    <div class="skill">
+                        <span>Visual Studio Code</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>My SQL WorkBench</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Android Studio</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>IntelliJ</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Eclipse</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Experiencia laboral y educación</h3>
+                    <div class="item izq">
+                        <h4>Estudiante en prácticas</h4>
+                        <span class="casa">Libnamic</span>
+                        <span class="fecha">2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Grado superior de desarrollo de aplicaciones multiplataforma</h4>
+                        <span class="casa">CES Juan Pablo II Cádiz</span>
+                        <span class="fecha">2021-2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachillerato</h4>
+                        <span class="casa">Escuela San José</span>
+                        <span class="fecha">2017-2019</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq2">
+                        <h4>Ingles B1 Cambridge</h4>
+                        <span class="casa">Instituto Europeo</span>
+                        <span class="fecha">2020</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col derecha">
+                    <h3>Certificaciones acreditadas por OpenWebinars</h3>
+                    <div class="item der">
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                        <h4>ANÁLISIS FORENSE AVANZADO EN SISTEMAS LINUX</h4>
+                        <h4>ANÁLISIS FORENSE AVANZADO EN SISTEMAS WINDOWS</h4>
+                        <h4>ANÁLISIS FORENSE BÁSICO EN SISTEMAS LINUX</h4>
+                        <h4>AZURE COGNITIVE SERVICES</h4>
+                        <h4>CREA LOGIN Y SIGNUP CON KOTLIN Y FIREBASE</h4>
+                        <h4>CRIPTOGRAFÍA SIMÉTRICA Y ASIMÉTRICA EN LA PRÁCTICA</h4>
+                        <h4>CURSO DE FIGMA</h4>
+                        <h4>DOCUMENTACIÓN DE IDENTIFICADORES EN SPRING BOOT</h4>
+                        <h4>DOCUMENTACIÓN DEL CÓDIGO CON JAVADOC</h4>
+                        <h4>HERRAMIENTAS DE TESTING PARA PYTHON</h4>
+                        <h4>PROBANDO APIS CON POSTMAN</h4>
+                        <h4>PRUEBAS DE REST API CON INSOMNIA REST Y RESTLET CLIENT</h4>
+                        <h4>TESTING AVANZADO CON JUNIT 5</h4>
+                        <h4>TRABAJANDO LA CONCURRENCIA EN PYTHON</h4>
+                        <h4>USO DE DTO EN API REST CON SPRING BOOT</h4>
+                        <h4>¿CÓMO IMPLEMENTAR PROJECT LOMBOK EN UN PROYECTO SPRING BOOT?</h4>
+                        <h4>TALLER DE JAVA 18: CONCURRENCIA</h4>
+                        <h4>TALLER DE JAVA 18: CONCURRENCIA AVANZADA</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
